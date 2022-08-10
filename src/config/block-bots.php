@@ -12,10 +12,7 @@ return [
     'mode' => env('BLOCK_BOTS_MODE', 'production'),
 
     'use_default_allowed_bots' => env('BLOCK_BOTS_USE_DEFAULT_ALLOWED_BOTS', true),
-
-    // 'block_when_crash' => env('BLOCK_BOTS_BLOCK_WHEN_CRASH', true),
-
-
+    
     'whitelist_key' => env('BLOCK_BOTS_WHITELIST_KEY', "block_bot:whitelist"),
 
     'fake_bot_list_key' => env('BLOCK_BOTS_FAKE_BOTS_KEY', "block_bot:fake_bots"),
@@ -24,10 +21,6 @@ return [
 
 
     'ip_info_key' => env('BLOCK_BOTS_IP_INFO_KEY', null),
-    /*
-     * Whitelisted  IP addresses
-     *      '127.0.0.1',
-     */
 
     'whitelist_ips' => [
         '127.0.0.1',
