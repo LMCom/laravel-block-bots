@@ -85,7 +85,7 @@ class ProcessLogWithIpInfo implements ShouldQueue
         if (($this->action === 'WHITELISTED') || ($this->action === 'GOOD_CRAWLER')) {
             Log::stack($this->options->channels_info)->info($message);
         } else {
-            Log::stack($this->options->channels_info)->error($message);
+            Log::stack($this->options->channels_info)->warning($message);
         }
     }
 }
