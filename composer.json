@@ -1,10 +1,13 @@
 {
-    "name": "potelo/laravel-block-bots",
+    "name": "lmcom/laravel-block-bots",
     "description": "Block bots and high traffic offenders using Redis",
     "authors": [
         {
             "name": "Bruno Cabral",
             "email": "bruno@potelo.com.br"
+        },
+        {
+          "name": "LMCom"
         }
     ],
     "require": {
