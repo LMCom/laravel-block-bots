@@ -1,6 +1,6 @@
 <?php
 
-namespace Potelo\LaravelBlockBots\Middleware;
+namespace LMCom\LaravelBlockBots\Middleware;
 
 use Closure;
 
@@ -9,10 +9,10 @@ use Carbon\Carbon;
 use Illuminate\Support\Facades\Redis;
 use Illuminate\Support\Facades\Auth;
 
-use Potelo\LaravelBlockBots\Abstracts\AbstractBlockBots;
-use Potelo\LaravelBlockBots\Events\UserBlockedEvent;
-use Potelo\LaravelBlockBots\Jobs\CheckIfBotIsReal;
-use Potelo\LaravelBlockBots\Jobs\ProcessLogWithIpInfo;
+use LMCom\LaravelBlockBots\Abstracts\AbstractBlockBots;
+use LMCom\LaravelBlockBots\Events\UserBlockedEvent;
+use LMCom\LaravelBlockBots\Jobs\CheckIfBotIsReal;
+use LMCom\LaravelBlockBots\Jobs\ProcessLogWithIpInfo;
 
 
 class BlockBots extends AbstractBlockBots

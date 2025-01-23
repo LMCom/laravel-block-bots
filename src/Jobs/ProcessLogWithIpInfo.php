@@ -1,6 +1,6 @@
 <?php
 
-namespace Potelo\LaravelBlockBots\Jobs;
+namespace LMCom\LaravelBlockBots\Jobs;
 
 use GuzzleHttp\Client as HTTP;
 use Illuminate\Bus\Queueable;

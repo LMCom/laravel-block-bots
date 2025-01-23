@@ -1,10 +1,10 @@
 <?php
 
-namespace Potelo\LaravelBlockBots\Commands;
+namespace LMCom\LaravelBlockBots\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Redis;
-use Potelo\LaravelBlockBots\Contracts\Configuration;
+use LMCom\LaravelBlockBots\Contracts\Configuration;
 
 class ListWhitelist extends Command
 {

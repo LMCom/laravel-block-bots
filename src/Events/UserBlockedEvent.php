@@ -1,6 +1,6 @@
 <?php
 
-namespace Potelo\LaravelBlockBots\Events;
+namespace LMCom\LaravelBlockBots\Events;
 
 use Carbon\Carbon;
 use Illuminate\Queue\SerializesModels;

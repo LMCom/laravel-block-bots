@@ -1,6 +1,6 @@
 <?php
 
-namespace Potelo\LaravelBlockBots\Contracts;
+namespace LMCom\LaravelBlockBots\Contracts;
 
 use Illuminate\Support\Facades\Auth;
 

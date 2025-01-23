@@ -1,6 +1,6 @@
 <?php
 
-namespace Potelo\LaravelBlockBots\Jobs;
+namespace LMCom\LaravelBlockBots\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
@@ -8,7 +8,7 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Support\Facades\Redis;
-use Potelo\LaravelBlockBots\Jobs\ProcessLogWithIpInfo;
+use LMCom\LaravelBlockBots\Jobs\ProcessLogWithIpInfo;
 
 class CheckIfBotIsReal implements ShouldQueue
 {
