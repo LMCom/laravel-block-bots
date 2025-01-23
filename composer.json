@@ -20,7 +20,7 @@
 
     "autoload": {
       "psr-4": {
-        "Potelo\\LaravelBlockBots\\": "src"
+        "LMCom\\LaravelBlockBots\\": "src"
       }
     },
 
