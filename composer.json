@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Potelo\\LaravelBlockBots\\BlockBotsServiceProvider"
+                "LMCom\\LaravelBlockBots\\BlockBotsServiceProvider"
             ]
         }
     }
